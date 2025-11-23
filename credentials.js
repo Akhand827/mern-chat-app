@@ -1,0 +1,2 @@
+PASSWORD=uMVu6AYGdwGQ5z2X
+USERNAME=akhandpratapgupta755_db_user
