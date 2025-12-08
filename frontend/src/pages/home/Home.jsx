@@ -1,6 +1,5 @@
-import React from "react";
-import Sidebar from "../../components/sidebar/Sidebar";
 import MessageContainer from "../../components/messages/MessageContainer";
+import Sidebar from "../../components/sidebar/Sidebar";
 
 const Home = () => {
   return (
@@ -10,15 +9,9 @@ const Home = () => {
     </div>
   );
 };
-
 export default Home;
 
-
-
-
-
-
-//STARTER CODE 
+//STARTER CODE
 // import React from "react";
 // import Sidebar from "../../components/sidebar/Sidebar";
 // import MessageContainer from "../../components/messages/MessageContainer";
