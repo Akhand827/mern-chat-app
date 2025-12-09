@@ -15,7 +15,7 @@ dotenv.config();
 const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const parentDir = path.resolve(__dirname, "..");
 
-// PORT should be assigned after calling dotenv.config() because we need to access the env variables. Didn't realize while recording the video. Sorry for the confusion.
+// PORT should be assigned after calling dotenv.config()
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json()); // to parse the incoming requests with JSON payloads (from req.body)
